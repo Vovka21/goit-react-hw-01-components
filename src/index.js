@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// import 'modern-normalize/modern-normalize.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import PropTypes from 'prop-types';
 
 ReactDOM.render(
   <React.StrictMode>

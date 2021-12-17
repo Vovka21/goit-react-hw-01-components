@@ -1,0 +1,33 @@
+.statistics {
+  outline: 2px solid gray;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 20px auto;
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.item {
+  border: 1px solid gray;
+  border-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.item span {
+  padding: 5px;
+  /* color: white; */
+}
+
+.title {
+  margin: 0;
+  padding: 20px;
+  color: #444343;
+  font-weight: normal;
+}
