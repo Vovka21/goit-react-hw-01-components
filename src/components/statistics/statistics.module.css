@@ -1,6 +1,7 @@
 .statistics {
   outline: 2px solid gray;
-  display: inline-block;
+  /* display: inline-block; */
+  display: table;
   border-radius: 4px;
   margin: 20px auto;
 }

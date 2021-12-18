@@ -1,4 +1,4 @@
-/* .status {
+.status {
   display: flex;
   width: 20px;
   height: 20px;
@@ -30,10 +30,4 @@
 
 .avatar {
   margin: 0 10px;
-} */
-
-.friendList {
-  display: inline-block;
-  padding-inline-start: 0px;
-  /* margin: 50px auto; */
 }

@@ -6,28 +6,24 @@ import styles from './statistics.module.css';
 
 const Statistics = ({ title, stats }) => {
   return (
-    <div>
-      {title ? (
-        <section className={styles.statistics}>
-          <h2 className={styles.title}>Upload stats</h2>
+    <section className={styles.statistics}>
+      {title ? <h2 className={styles.title}>{title}</h2> : null}
 
-          <ul className={styles.statList}>
-            {stats.map(el => (
-              <li
-                key={el.id}
-                className={styles.item}
-                style={{
-                  backgroundColor: randColor(),
-                }}
-              >
-                <span className={styles.label}>{el.label}</span>
-                <span className={styles.percentage}>{el.percentage}%</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-    </div>
+      <ul className={styles.statList}>
+        {stats.map(el => (
+          <li
+            key={el.id}
+            className={styles.item}
+            style={{
+              backgroundColor: randColor(),
+            }}
+          >
+            <span className={styles.label}>{el.label}</span>
+            <span className={styles.percentage}>{el.percentage}%</span>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 };
 
